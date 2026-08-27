@@ -1,0 +1,27 @@
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<a href="third-page.html">Third Page</a>
+<a href="index.html">Home</a>
+<div class="image-gallery">
+  <img src="image1.jpg" alt="Image 1">
+  <img src="image2.jpg" alt="Image 2">
+  <img src="image3.jpg" alt="Image 3">
+</div>
+
+  
+{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.image-gallery {
+  display: flex;
+  gap: 10px;
+}
+.image-gallery img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
